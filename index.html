@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sovon Chakraborty - Academic Profile</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 5vw;
+    }
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .profile img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #2c3e50;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      margin-top: 40px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #2c3e50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #1a252f;
+    }
+    .social-icons {
+      margin-top: 20px;
+    }
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+    }
+    .badge {
+      background-color: gold;
+      color: black;
+      font-weight: bold;
+      border-radius: 4px;
+      padding: 2px 6px;
+      margin-left: 8px;
+      font-size: 0.85em;
+    }
+    @media (min-width: 600px) {
+      .profile {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
+      }
+    }
+    .education-icon {
+      margin-right: 8px;
+      color: #2c3e50;
+    }
+    .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .card p {
+      margin: 5px 0;
+    }
+    .whats-new-item {
+      border-left: 3px solid #2c3e50;
+      padding-left: 15px;
+      margin-bottom: 18px;
+    }
+    .whats-new-item:last-child {
+      margin-bottom: 0;
+    }
+    .whats-new-date {
+      display: block;
+      font-size: 0.85em;
+      color: #777;
+      margin-bottom: 2px;
+    }
+    .whats-new-item p {
+      margin: 4px 0 0 0;
+      color: #555;
+      font-size: 0.95em;
+    }
+    .tag {
+      background-color: #34495e;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      padding: 2px 6px;
+      margin-left: 8px;
+      font-size: 0.75em;
+      vertical-align: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><strong>Sovon Chakraborty</strong></h1>
+    <p>PhD Candidate at Old Dominion University | Researcher in Computational Biology/NLP/Computer Vision/HCI</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#whats-new">What's New</a></li>
+	  <li><a href="#Experience"> Professional Experience </li>
+      <li><a href="#research">Research Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section class="profile" id="about">
+      <img src="picture.png" alt="Sovon's Profile Photo">
+      <div>
+        <p>
+         Hello! from Sovon Chakraborty. I am currently at second year of my PhD study at Department of CS, ODU. I am focusing on Computational Biology for now but my forever love is NLP and HCI. I am affiliated with multiple projects with numerous agencies including US Army and CCI.  My MSc thesis, supervised by <a href="https://sites.google.com/site/farigsadeque" target="_blank">Professor Farig Yousuf Sadeque</a>, where I gathered detailed understanding of data collection, preprocessing and Transformer architectures. I am currently residing at Norfolk, Virginia. Feel free to contact me for any collaboration and opportunities. 
+        </p>
+		
+		<p>
+		    I am always eager to collaborate on impactful research that bridges technology and human experience. Not only publications but also conducting quality research is the prime target of mine. 
+		</p>
+        <p>
+          I love to travel a lot along with exploring new cultures and life style. Love to watch and play Football, a forever Arsenal fan (COYG). I have a cat back in Bangladesh and I miss her a lot. 
+        </p>
+        <p>
+          📧 <strong>Email:</strong>sovonchakraborty2014@gmail.com<br>
+          📱 <strong>Phone:</strong> +1 (757) 2023 440<br>
+          📍 <strong>Current Address:</strong> Norfolk, Virginia, USA<br>
+          🔗 <strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=B_jBQo0AAAAJ&hl=en" target="_blank">View Profile</a>
+        </p>
+        <a href="Sovon_CV.pdf" class="button" download>Download My Resume</a>
+      </div>
+    </section>
+
+    <h2 id="whats-new">📢 What's New</h2>
+    <div class="card">
+
+      <div class="whats-new-item">
+        <span class="whats-new-date">August 2026</span>
+        <strong>Presented our work titled "AttF-GNN: An attention-based multi-omics graph neural network framework designed for disease classification and subtyping" at ACM BCB 2026. </strong>
+        <span class="badge">New</span>
+        <p>We proposed a GNN architecture that can perform subtyping in a more precise way. We evaluated this in three datasets namely TCGA BRCA, ROSMAP and TCGA-GBM</p>
+      </div>
+
+
+	<div class="whats-new-item">
+        <span class="whats-new-date">June 2026</span>
+        <strong>Become a PC member of the IEEE BIBM 2026. </strong>
+        <span class="tag">Paper</span>
+        <p>Reviewed six papers</p>
+      </div>
+
+      <div class="whats-new-item">
+        <span class="whats-new-date">August 2026</span>
+        <strong>Passed PhD candidacy at Old Dominion University.</strong>
+        <span class="tag">Milestone</span>
+        <p>Thesis work now focuses on graph-based multi-omics integration for cancer subtype classification.</p>
+      </div>
+
+      <div class="whats-new-item">
+        <span class="whats-new-date">June 2026</span>
+        <strong>Our work "A Comparative Analysis of Explainable AI (XAI) Techniques for Transparent and Reliable Image Classification" has been published in Entropy.</strong>
+        <span class="tag">Paper</span>
+        <p>We rigorously evaluated four XAI methods, namely PEEK, LIME, LRP and GradCAM to understand how they perform in numerous situation. The findings are indeed interesting.</p>
+      </div>
+
+      <div class="whats-new-item">
+        <span class="whats-new-date">2025</span>
+        <strong>An Analytical Review of Preprocessing Techniques in Bengali Natural Language Processing published in IEEE Access.</strong>
+        <span class="tag">Paper</span>
+        <p><a href="https://scholar.google.com/citations?user=B_jBQo0AAAAJ&hl=en" target="_blank">View on Google Scholar</a></p>
+      </div>
+
+      <div class="whats-new-item">
+        <span class="whats-new-date">2025</span>
+        <strong>Attended the 5th CCI Symposium, Richmond, Virginia.</strong>
+        <span class="tag">Talk</span>
+      </div>
+
+    </div>
+
+
+
+
+
+<h2 id="Experience">💼 Professional Experience</h2>
+    <ul>
+      <li>
+        <strong>Lecturer</strong>, University of Liberal Arts Bangladesh<br>
+        <em>Department of Computer Science and Engineering</em><br>
+        <strong>September 2024 – Present (Study Leave)</strong><br>
+        Course Taught: NLP, Object Oriented Programming, Computer Networks
+      </li>
+      <li>
+        <strong>Lecturer</strong>, European University of Bangladesh<br>
+        <em>Department of Computer Science and Engineering</em><br>
+        <strong>December 2021 – September 2024</strong><br>
+    
+      </li>
+      <li>
+        <strong>Software Engineer</strong>, SAir Air BD Ltd, Himalaya Airlines<br>
+        <strong>December 2020 – December 2021 </strong><br>
+        Working on a real life project in Python Django and MongoDB database. 
+      </li>
+    </ul>
+
+
+
+
+    <h2 id="research">🔬 Research Experience</h2>
+    <ul>
+      <li>
+        <strong>Research Assistant</strong>, Applied Machine Learning Research Lab, Old Dominion University<br>
+        <em>Advisor: Dr. Pratip Rana</em><br>
+        <strong>Janaury 2025 – Present</strong><br>
+        Focus: Computational Biology, Multi-omics Integration, Graph Neural Network, Single Cell Genomics, Explainable AI and Healthcare AI. 
+      </li>
+      <li>
+        <strong>Research Associate</strong>, Multimedia Signal and Image Processing Research Group<br>
+        <em>Supervisor: Dr. Jia Uddin</em><br>
+        <strong>October 2020 – Present</strong><br>
+        Focus: Image Processing, Medical Imaging, Deep Learning, Artificial Intelligence
+      </li>
+      <li>
+        <strong>Research Collaborator and Associate</strong>, United International University<br>
+        <strong>2023 – Present</strong><br>
+        Collaborative work in NLP, AI, and HCI. 
+      </li>
+    </ul>
+	
+	
+
+    <h2 id="education">🎓 Education</h2>
+    <ul>
+	<li><span class="education-icon">📘</span><strong>PhD in Computer Science</strong>, Old Dominion University, Virginia, United States (2025–Present)<br>
+      Focus on Computational Biology, Supervisor: <a href="https://pratiprana.github.io/" target="_blank">Dr. Pratip Rana</a></li>
+      <li><span class="education-icon">📘</span><strong>MSc in CSE</strong>, BRAC University, Dhaka, Bangladesh (2022–2024)<br>
+      Thesis Based Masters (18 credit), Supervisor: <a href="https://sites.google.com/site/farigsadeque" target="_blank">Farig Yousuf Sadeque</a></li>
+      <li><span class="education-icon">📗</span><strong>Bachelor of Science in Computer Science</strong>, Ahsanullah University of Science and Technology (2015–2019)</li>
+      <li><span class="education-icon">📙</span><strong>HSC, Major in Science</strong>, Dhaka College College, Class of 2014</li>
+    </ul>
+
+
+
+
+
+    <h2 id="projects">Research Projects</h2>
+    <ul>
+      <li><strong>Perceptions and Impacts of Digitally Synthesized Intimate Content in Bangladesh:</strong> An HCI and ethics-focused exploration of AI-generated deepfake imagery and user awareness in conservative societies.</li>
+      <li><strong>Workforce Transitions in Aviation Post-COVID:</strong> A socio-technical study of employment patterns in the aviation industry across pre-, during-, and post-pandemic phases.</li>
+    </ul>
+
+    <h2 id="publications"> Top Cited Publication (See Google Scholar for Details)</h2>
+    <ul>
+      <li><strong>Sentiment Analysis on Twitter Tweets About COVID-19 Vaccines Using NLP and Supervised KNN Classification Algorithm</strong> <span class="badge">Top Cited</span> – Indonesian Journal of Electrical Engineering and Computer Science, 2021 [<a href="#">PDF</a>]</li>
+    </ul>
+
+    <h2>Recent Publication</h2>
+    <ul>
+      <li><strong>An Analytical Review of Preprocessing Techniques in Bengali Natural Language Processing.</strong> IEEE Access, 2025</li>
+    </ul>
+
+  
+
+    <h2>Conferences Attended</h2>
+    <ul>
+      <li>5th CCI Symposium, Richmond, Virginia, USA, 2025</li>
+	  <li>1st ICAccess Conference, ULAB, Dhaka, Bangladesh, 2024 </li>
+      <li>26th ICCIT, Cox's Bazar, Bangladesh, 2023</li>
+      <li>14th ICCNT, IIT Delhi, India</li>
+      <li>5th ICOEI, 2021 (Remote)</li>
+    </ul>
+
+    <h2 id="awards">🏅 Awards, Fellowships, & Grants</h2>
+    <div class="card">
+      <h3>Full Funded Scholarship with Teaching Assistantship(2025–Present)</h3>
+      <p>Old Dominion University</p>
+  
+    </div>
+    <div class="card">
+      <h3>Publication Reward</h3>
+      <p>Awarded for collaborative research work</p>
+      <p><strong>Total Awarded:</strong> ৳3,60,000 BDT (~$3,000 USD)</p>
+    </div>
+	
+    <div class="card">
+      <h3>Research Grant</h3>
+      <p>Woosong University, South Korea, Under the Supervision of Dr.Jia Uddin</p>
+      <p><strong>Total Awarded:</strong> ৳4,80,000 BDT (~$4,200 USD)</p>
+    </div>
+
+    <h2>Language Proficiency Test</h2>
+    <ul>
+      <li><strong>International English Language Testing System (IELTS):</strong> 7 out of 9.0 (No band less than 6.5)</li>
+    </ul>
+
+    <h2 id="contact">Reach Me Here</h2>
+    <p><strong>Email:</strong> sovonchakraborty2014@gmail.com</p>
+
+    <div class="social-icons">
+      <a href="https://bd.linkedin.com/in/sovon-chakraborty-5367511a0" target="_blank" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://www.researchgate.net/profile/Sovon-Chakraborty" target="_blank" title="ResearchGate">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/researchgate.svg" alt="ResearchGate">
+      </a>
+      <a href="https://github.com/SovonChakraborty" target="_blank" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
